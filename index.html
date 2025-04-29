@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pac-Man Items</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        h1 {
+            color: yellow;
+        }
+        .items-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .item {
+            width: 100px;
+            height: 100px;
+            background: #333;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 2px solid yellow;
+        }
+        .item img {
+            width: 50%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .item span {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pac-Man Items</h1>
+    <div class="items-container">
+        <div class="item">
+            <img src="https://via.placeholder.com/50?text=🍒" alt="Cherry">
+            <span>Cherry</span>
+        </div>
+        <div class="item">
+            <img src="https://via.placeholder.com/50?text=🍓" alt="Strawberry">
+            <span>Strawberry</span>
+        </div>
+        <div class="item">
+            <img src="https://via.placeholder.com/50?text=🔵" alt="Power Pellet">
+            <span>Power Pellet</span>
+        </div>
+        <div class="item">
+            <img src="https://via.placeholder.com/50?text=🔴" alt="Apple">
+            <span>Apple</span>
+        </div>
+    </div>
+</body>
+</html>
